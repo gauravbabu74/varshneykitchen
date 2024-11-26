@@ -1,0 +1,28 @@
+name: food
+type: theme
+base theme: classy
+description: "This is custom events theme"
+core_version_requirement: ^9 || ^10
+screenshot: food.png
+
+
+libraries:
+  - food/global-styling
+  - food/color
+
+regions:
+  header: Header
+  Navigation: Navigation
+  content: Content
+  front: Front Page Blocks
+  footer_first: Footer First
+  footer_second: Footer Second
+  footer_third: Footer third
+  page_top: Page Top
+  page_bottom: Page Bottom
+  disabled: Disbaled
+
+# Information added by Drupal.org packaging script on 2023-10-31
+version: '1.0.0'
+project: 'online_food_blog'
+datestamp: 1698757536

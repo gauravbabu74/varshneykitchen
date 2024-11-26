@@ -1,0 +1,12 @@
+global-styling:
+  version: VERSION
+  css:
+    theme:
+      css/style.css: {}
+      css/colors.css: {}
+
+  js:
+    js/script.js: {}
+    js/common.js: {attributes: { defer: true }}
+    js/jquery.noty.min.js: {attributes: { defer: true }}
+    js/jquery-migrate-3.3.2.min.js: {attributes: { defer: true }}

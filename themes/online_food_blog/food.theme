@@ -1,0 +1,37 @@
+<?php
+
+// use Drupal\Core\Form\FormStateInterface;
+
+// /**
+//  * Implements hook_form_FORM_ID_alter().
+//  */
+// function food_form_system_theme_settings_alter(&$form, FormStateInterface $form_state) {
+//   $build_info = $form_state->getBuildInfo();
+//   if (isset($build_info['args'][0]) && ($theme = $build_info['args'][0]) && color_get_info($theme) && function_exists('gd_info')) {
+//     $form['color'] = [
+//       '#type' => 'details',
+//       '#title' => t('Color scheme'),
+//       '#open' => TRUE,
+//       '#weight' => -1,
+//       '#attributes' => ['id' => 'color_scheme_form'],
+//      // '#theme' => 'color_scheme_form',
+//     ];
+//     $form['color'] += color_scheme_form($form, $form_state, $theme);
+//     // dump($form['color']);
+//     $form['#validate'][] = 'color_scheme_form_validate';
+//     // Ensure color submission happens first so we can unset extra values.
+//    // array_unshift($form['#submit'], 'color_scheme_form_submit');
+//   }
+// }
+
+// /**
+//  * Implements hook_theme().
+//  */
+// function food_theme() {
+//   return [
+//     'color_scheme_form' => [
+//       'render element' => 'form',
+//     ],
+//   ];
+// }
+
