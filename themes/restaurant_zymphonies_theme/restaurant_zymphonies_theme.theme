@@ -205,7 +205,7 @@ function restaurant_zymphonies_theme_form_system_theme_settings_alter(&$form, \D
   );
 
   // Custom submit to save the file permenant.
-  $form['#submit'][] = 'restaurant_zymphonies_theme_settings_form_submit';
+  // $form['#submit'][] = 'restaurant_zymphonies_theme_settings_form_submit';
 
   //Show/Hide credit
   $form['restaurant_zymphonies_theme_settings']['credit_link'] = array(
